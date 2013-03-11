@@ -67,6 +67,7 @@
 		<ol class="carousel-indicators ">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
 		</ol>
 	
 		<div class="carousel-inner">
@@ -125,9 +126,8 @@
 		<div class="row-fluid">
 			<div class="span12">			
 				<div class="btn-group" data-toggle="buttons-radio">
-				  <button autocomplete="off" type="button" class="btn btn-primary active">Categorias</button>
-				  <button autocomplete="off" type="button" class="btn btn-primary">Modelos</button>
-				  
+				  <button autocomplete="off" type="button" class="btn btn-primary active" href="#categorias" data-toggle="tab">Categorias</button>
+				  <button autocomplete="off" type="button" class="btn btn-primary" href="#modelos" data-toggle="tab">Modelos</button>
 				</div>
 			</div>	
 		</div>
@@ -135,46 +135,49 @@
 
 	<div class="container-fluid moduleCarViewrWrap">
 		<div class="row-fluid">
-			<div class="span6">
-				<h1>Carro #1</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>		
-	
-			<div class="span6">
-				<h1>Carro #2</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>		
-	
-			<div class="span6">
-				<h1>Carro #3</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>		
-	
-			<div class="span6">
-				<h1>Carro #4</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
+
+			<div class="tab-content">
+				
+				<div class="tab-pane active" id="categorias">
+					<div class="span6">
+						<h1>Categoria #1</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+					<div class="span6">
+						<h1>Categoria #2</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+					<div class="span6">
+						<h1>Categoria #3</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+					<div class="span6">
+						<h1>Categoria #4</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+				</div>
+
+				<div class="tab-pane" id="modelos">
+					<div class="span6">
+						<h1>Modelo #1</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+					<div class="span6">
+						<h1>Modelo #2</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+					<div class="span6">
+						<h1>Modelo #3</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+					<div class="span6">
+						<h1>Modelo #4</h1>
+						<a href="#" class="btn btn-primary">Ver Mas</a>
+					</div>
+				</div>
+
 			</div>
 
-			<div class="span6">
-				<h1>Carro #5</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>
-
-			<div class="span6">
-				<h1>Carro #6</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>
-
-			<div class="span6">
-				<h1>Carro #7</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>
-
-			<div class="span6">
-				<h1>Carro #8</h1>
-				<a href="#" class="btn btn-primary">Ver Mas</a>
-			</div>
-		
 		</div>	
 	</div>
 	
@@ -188,7 +191,6 @@
 			</ul>
 		</div>
 	</div>
-
 
 
     <!-- Footer
