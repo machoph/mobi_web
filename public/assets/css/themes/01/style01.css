@@ -1,5 +1,6 @@
-	    .moduleInfoWrap{ padding: 10px; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%)}
-	    .moduleCarTypeWrap { text-align: center; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%)}
+	    .moduleInfoWrap{ padding: 10px; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%);}
+	    .moduleCarTypeWrap { text-align: center; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%);}
 	    .moduleCarViewrWrap { padding: 0;}
-	    .moduleCarViewrWrap .span6{ padding: 10px; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%)}
-	    .moduleFooterWrap {background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%)}
+	    .moduleCarViewrWrap .span6{ padding: 10px; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%);}
+	    .moduleCarViewrWrap .span6 img{ float: left; }
+	    .moduleFooterWrap {background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%);}
