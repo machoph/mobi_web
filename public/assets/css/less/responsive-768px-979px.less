@@ -3,8 +3,12 @@
 // --------------------------------------------------
 
 
-@media (min-width: 768px) and (max-width: 979px) {
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  // Remove padding on container given explicit padding set on body
+  .container-fluid {
+    padding: 10px 0;
+  }
   // Fixed grid
   #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
 
