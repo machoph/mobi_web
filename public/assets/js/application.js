@@ -67,7 +67,11 @@
       })
 
     // carousel demo
-    $('#myCarousel').carousel()
+    $('#myCarousel').carousel({
+	    pause: true,
+        interval: false,
+        cycle: false
+    })
 
     // javascript build logic
     var inputsComponent = $("#components.download input")
