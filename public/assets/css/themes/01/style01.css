@@ -4,3 +4,8 @@
 	    .moduleCarViewrWrap .span6{ padding: 10px; background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%);}
 	    .moduleCarViewrWrap .span6 img{ float: left; }
 	    .moduleFooterWrap {background: -webkit-linear-gradient(#f5f5f5 0%, #ffffff 100%);}
+	    
+	    /*Categoria*/
+	    .moduleSecundaryHero{padding: 0;}
+	    .moduleSecundaryHero img{width:100%;}
+	    .moduleSecundaryHero h1{ margin: 20px 10px;}
